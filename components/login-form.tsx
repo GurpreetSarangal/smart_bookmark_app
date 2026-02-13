@@ -29,6 +29,7 @@ export function LoginForm({
       provider: "google",
       options: {
         redirectTo: `/auth/callback`,
+        skipBrowserRedirect: true
       },
     });
 
