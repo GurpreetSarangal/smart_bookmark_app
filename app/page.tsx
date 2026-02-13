@@ -10,7 +10,7 @@ export default async function Home() {
 
   // If not logged in → login page
   if (!user) {
-    redirect("/auth.login");
+    redirect("/auth/login");
   }
 
   // If logged in → protected area
